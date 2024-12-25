@@ -1,0 +1,618 @@
+{
+  "mod_elements": [
+    {
+      "name": "RedIron",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/block/RedIronBlock.java",
+          "src/main/resources/assets/awesomeminecraftmods/models/block/red_iron.json",
+          "src/main/resources/assets/awesomeminecraftmods/models/item/red_iron.json",
+          "src/main/resources/assets/awesomeminecraftmods/blockstates/red_iron.json",
+          "src/main/resources/data/awesomeminecraftmods/loot_table/blocks/red_iron.json"
+        ]
+      }
+    },
+    {
+      "name": "RedIronRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awesomeminecraftmods/recipe/red_iron_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FusionTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/awesomeminecraftmods/models/item/fusion_table.json",
+          "src/main/java/net/mcreator/fusion_table/block/entity/FusionTableBlockEntity.java",
+          "src/main/resources/data/awesomeminecraftmods/loot_table/blocks/fusion_table.json",
+          "src/main/java/net/mcreator/fusion_table/block/FusionTableBlock.java",
+          "src/main/resources/assets/awesomeminecraftmods/models/block/fusion_table.json",
+          "src/main/resources/assets/awesomeminecraftmods/blockstates/fusion_table.json"
+        ]
+      }
+    },
+    {
+      "name": "FusionTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awesomeminecraftmods/recipe/fusion_table_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FusionProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/procedures/FusionProcedureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "FusionInterface",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/network/FusionInterfaceButtonMessage.java",
+          "src/main/java/net/mcreator/fusion_table/world/inventory/FusionInterfaceMenu.java",
+          "src/main/java/net/mcreator/fusion_table/client/gui/FusionInterfaceScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenFusionUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/procedures/OpenFusionUIProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Gun",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/entity/GunEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Gunmaker",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunmaker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/awesomeminecraftmods/models/item/gunmaker.json",
+          "src/main/java/net/mcreator/fusion_table/item/GunmakerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BottleOfLightning",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_of_lightning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/awesomeminecraftmods/models/item/bottle_of_lightning.json",
+          "src/main/java/net/mcreator/fusion_table/item/BottleOfLightningItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SwordOfLightningLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_of_lightning_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/procedures/SwordOfLightningLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordOfLightning",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_of_lightning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/awesomeminecraftmods/models/item/sword_of_lightning.json",
+          "src/main/java/net/mcreator/fusion_table/item/SwordOfLightningItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Teledagger",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teledagger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/entity/TeledaggerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HgRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hg_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/procedures/HgRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/awesomeminecraftmods/models/item/hg.json",
+          "src/main/java/net/mcreator/fusion_table/item/HgItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LolRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lol_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/procedures/LolRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lol",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/item/LolItem.java",
+          "src/main/resources/assets/awesomeminecraftmods/models/item/lol.json"
+        ]
+      }
+    },
+    {
+      "name": "Edws",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "edws",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LavaswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavasword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/procedures/LavaswordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lavasword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavasword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/item/LavaswordItem.java",
+          "src/main/resources/assets/awesomeminecraftmods/models/item/lavasword.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaswordRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavasword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/procedures/LavaswordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfiniteWaterBucketRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinite_water_bucket_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/procedures/InfiniteWaterBucketRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfiniteWaterBucket",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinite_water_bucket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/item/InfiniteWaterBucketItem.java",
+          "src/main/resources/assets/awesomeminecraftmods/models/item/infinite_water_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaWallProcudure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_wall_procudure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/procedures/LavaWallProcudureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LavaWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/block/LavaWallBlock.java",
+          "src/main/resources/data/awesomeminecraftmods/loot_table/blocks/lava_wall.json",
+          "src/main/resources/assets/awesomeminecraftmods/models/block/lava_wall.json",
+          "src/main/resources/assets/awesomeminecraftmods/blockstates/lava_wall.json",
+          "src/main/resources/assets/awesomeminecraftmods/models/item/lava_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "Speed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/awesomeminecraftmods/models/item/speed.json",
+          "src/main/java/net/mcreator/fusion_table/item/SpeedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sdfs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sdfs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awesomeminecraftmods/recipe/sdfs.json"
+        ]
+      }
+    },
+    {
+      "name": "Dksrgiewnhsrughxyeudfigviuledfughidzhr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dksrgiewnhsrughxyeudfigviuledfughidzhr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awesomeminecraftmods/recipe/dksrgiewnhsrughxyeudfigviuledfughidzhr.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaWall2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_wall_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/block/LavaWall2Block.java",
+          "src/main/resources/data/awesomeminecraftmods/loot_table/blocks/lava_wall_2.json",
+          "src/main/resources/assets/awesomeminecraftmods/models/item/lava_wall_2.json",
+          "src/main/resources/assets/awesomeminecraftmods/blockstates/lava_wall_2.json",
+          "src/main/resources/assets/awesomeminecraftmods/models/block/lava_wall_2.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaSword2",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_sword_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/item/LavaSword2Item.java",
+          "src/main/resources/assets/awesomeminecraftmods/models/item/lava_sword_2.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:FusionTable",
+      "~CUSTOM:RedIron"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:FusionTable",
+      "~CUSTOM:RedIron"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SwordOfLightning",
+      "~CUSTOM:Gunmaker"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:LavaSword2",
+      "~CUSTOM:Lavasword"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.awesomeminecraftmods.edws": "Edws",
+      "item.awesomeminecraftmods.speed": "Speed",
+      "item.awesomeminecraftmods.lol": "Lol",
+      "item.fusion_table.gunmaker": "Gunmaker",
+      "tile.rediron.name": "Red Iron",
+      "item.fusion_table.lol": "Lol",
+      "gui.fusion_table.fusion_interface.label_fusion_table": "Fusion table",
+      "item.fusion_table.lava_sword_2": "Lavasword",
+      "item.fusion_table.speed": "Speed",
+      "item.awesomeminecraftmods.bottle_of_lightning": "Bottle Of Lightning",
+      "item.fusion_table.lavasword": "Lavasword",
+      "block.awesomeminecraftmods.fusion_table": "Fusion Table",
+      "item.awesomeminecraftmods.gunmaker": "Gunmaker",
+      "item.awesomeminecraftmods.lavasword": "Lavasword",
+      "block.fusion_table.fusion_table": "Fusion Table",
+      "block.awesomeminecraftmods.red_iron": "Red Iron",
+      "item.awesomeminecraftmods.lava_sword_2": "Lavasword",
+      "item.fusion_table.infinite_water_bucket": "Water Gem",
+      "gui.awesomeminecraftmods.fusion_interface.label_fusion_table": "Fusion table",
+      "gui.fusion_table.fusion_interface.button_fuse": "Fuse",
+      "item.awesomeminecraftmods.hg": "Hg",
+      "item.fusion_table.sword_of_lightning": "Sword Of Lightning",
+      "block.awesomeminecraftmods.lava_wall": "Lava Wall",
+      "item.fusion_table.bottle_of_lightning": "Bottle Of Lightning",
+      "block.fusion_table.lava_wall_2": "Lava Wall",
+      "block.fusion_table.red_iron": "Red Iron",
+      "item.awesomeminecraftmods.infinite_water_bucket": "Water Gem",
+      "item.fusion_table.hg": "Hg",
+      "gui.awesomeminecraftmods.fusion_interface.button_fuse": "Fuse",
+      "block.fusion_table.lava_wall": "Lava Wall",
+      "item.awesomeminecraftmods.sword_of_lightning": "Sword Of Lightning",
+      "block.awesomeminecraftmods.lava_wall_2": "Lava Wall",
+      "tile.fusiontable.name": "Fusion Table",
+      "item_group.fusion_table.edws": "Edws"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "awesomeminecraftmods",
+    "modName": "AwesomeMinecraftMods",
+    "version": "1.0.0",
+    "description": "The mod introduces a new crafting-table-like block which can be used for fusing Redstone Dust, Diamonds and Gold with Iron Blocks. You put 1 iron block in the top left slot and one of the 3 materials to create Red Iron, Diamond Blocks or Gold Blocks.  ",
+    "author": "Giovanni Gentilin",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.fusion_table"
+  },
+  "mcreatorVersion": 202400451119
+}

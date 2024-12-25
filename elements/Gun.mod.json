@@ -1,0 +1,21 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.END_ROD"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "screenshot_2024-03-30_104147.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

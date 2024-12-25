@@ -1,0 +1,10 @@
+.eclipse
+build
+build/**
+.gradle
+.gradle/**
+.mcreator
+.mcreator/**
+src/**
+src
+

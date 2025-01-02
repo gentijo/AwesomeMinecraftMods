@@ -7,11 +7,11 @@
       "locked_code": false,
       "metadata": {
         "files": [
-          "src/main/resources/data/fusion_table/loot_table/blocks/red_iron.json",
-          "src/main/java/net/mcreator/fusion_table/block/RedIronBlock.java",
+          "src/main/resources/assets/fusion_table/models/block/red_iron.json",
           "src/main/resources/assets/fusion_table/blockstates/red_iron.json",
+          "src/main/java/net/mcreator/fusion_table/block/RedIronBlock.java",
           "src/main/resources/assets/fusion_table/models/item/red_iron.json",
-          "src/main/resources/assets/fusion_table/models/block/red_iron.json"
+          "src/main/resources/data/fusion_table/loot_table/blocks/red_iron.json"
         ]
       }
     },
@@ -33,12 +33,12 @@
       "locked_code": false,
       "metadata": {
         "files": [
-          "src/main/resources/data/fusion_table/loot_table/blocks/fusion_table.json",
-          "src/main/java/net/mcreator/fusion_table/block/FusionTableBlock.java",
           "src/main/resources/assets/fusion_table/models/item/fusion_table.json",
-          "src/main/resources/assets/fusion_table/blockstates/fusion_table.json",
+          "src/main/java/net/mcreator/fusion_table/block/entity/FusionTableBlockEntity.java",
+          "src/main/java/net/mcreator/fusion_table/block/FusionTableBlock.java",
           "src/main/resources/assets/fusion_table/models/block/fusion_table.json",
-          "src/main/java/net/mcreator/fusion_table/block/entity/FusionTableBlockEntity.java"
+          "src/main/resources/assets/fusion_table/blockstates/fusion_table.json",
+          "src/main/resources/data/fusion_table/loot_table/blocks/fusion_table.json"
         ]
       }
     },
@@ -89,9 +89,9 @@
       "locked_code": false,
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fusion_table/network/FusionInterfaceButtonMessage.java",
           "src/main/java/net/mcreator/fusion_table/world/inventory/FusionInterfaceMenu.java",
-          "src/main/java/net/mcreator/fusion_table/client/gui/FusionInterfaceScreen.java",
-          "src/main/java/net/mcreator/fusion_table/network/FusionInterfaceButtonMessage.java"
+          "src/main/java/net/mcreator/fusion_table/client/gui/FusionInterfaceScreen.java"
         ]
       }
     },
@@ -161,8 +161,8 @@
       "registry_name": "bottle_of_lightning",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fusion_table/item/BottleOfLightningItem.java",
-          "src/main/resources/assets/fusion_table/models/item/bottle_of_lightning.json"
+          "src/main/resources/assets/fusion_table/models/item/bottle_of_lightning.json",
+          "src/main/java/net/mcreator/fusion_table/item/BottleOfLightningItem.java"
         ]
       }
     },
@@ -204,8 +204,8 @@
       "registry_name": "sword_of_lightning",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fusion_table/item/SwordOfLightningItem.java",
-          "src/main/resources/assets/fusion_table/models/item/sword_of_lightning.json"
+          "src/main/resources/assets/fusion_table/models/item/sword_of_lightning.json",
+          "src/main/java/net/mcreator/fusion_table/item/SwordOfLightningItem.java"
         ]
       }
     },
@@ -302,8 +302,8 @@
       "registry_name": "lol",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fusion_table/models/item/lol.json",
-          "src/main/java/net/mcreator/fusion_table/item/LolItem.java"
+          "src/main/java/net/mcreator/fusion_table/item/LolItem.java",
+          "src/main/resources/assets/fusion_table/models/item/lol.json"
         ]
       }
     },
@@ -343,8 +343,8 @@
       "registry_name": "lavasword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fusion_table/models/item/lavasword.json",
-          "src/main/java/net/mcreator/fusion_table/item/LavaswordItem.java"
+          "src/main/java/net/mcreator/fusion_table/item/LavaswordItem.java",
+          "src/main/resources/assets/fusion_table/models/item/lavasword.json"
         ]
       }
     },
@@ -459,11 +459,11 @@
       "registry_name": "lava_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fusion_table/blockstates/lava_wall.json",
-          "src/main/resources/data/fusion_table/loot_table/blocks/lava_wall.json",
-          "src/main/resources/assets/fusion_table/models/item/lava_wall.json",
+          "src/main/java/net/mcreator/fusion_table/block/LavaWallBlock.java",
           "src/main/resources/assets/fusion_table/models/block/lava_wall.json",
-          "src/main/java/net/mcreator/fusion_table/block/LavaWallBlock.java"
+          "src/main/resources/data/fusion_table/loot_table/blocks/lava_wall.json",
+          "src/main/resources/assets/fusion_table/blockstates/lava_wall.json",
+          "src/main/resources/assets/fusion_table/models/item/lava_wall.json"
         ]
       }
     },
@@ -475,8 +475,8 @@
       "registry_name": "speed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fusion_table/item/SpeedItem.java",
-          "src/main/resources/assets/fusion_table/models/item/speed.json"
+          "src/main/resources/assets/fusion_table/models/item/speed.json",
+          "src/main/java/net/mcreator/fusion_table/item/SpeedItem.java"
         ]
       }
     },
@@ -512,11 +512,11 @@
       "registry_name": "lava_wall_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fusion_table/blockstates/lava_wall_2.json",
-          "src/main/resources/assets/fusion_table/models/item/lava_wall_2.json",
           "src/main/java/net/mcreator/fusion_table/block/LavaWall2Block.java",
           "src/main/resources/data/fusion_table/loot_table/blocks/lava_wall_2.json",
-          "src/main/resources/assets/fusion_table/models/block/lava_wall_2.json"
+          "src/main/resources/assets/fusion_table/models/block/lava_wall_2.json",
+          "src/main/resources/assets/fusion_table/blockstates/lava_wall_2.json",
+          "src/main/resources/assets/fusion_table/models/item/lava_wall_2.json"
         ]
       }
     },
@@ -528,8 +528,8 @@
       "registry_name": "lava_sword_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fusion_table/models/item/lava_sword_2.json",
-          "src/main/java/net/mcreator/fusion_table/item/LavaSword2Item.java"
+          "src/main/java/net/mcreator/fusion_table/item/LavaSword2Item.java",
+          "src/main/resources/assets/fusion_table/models/item/lava_sword_2.json"
         ]
       }
     },
@@ -541,11 +541,11 @@
       "registry_name": "death_valley",
       "metadata": {
         "files": [
+          "src/main/resources/data/fusion_table/worldgen/biome/death_valley.json",
+          "src/main/java/net/mcreator/fusion_table/world/features/treedecorators/DeathValleyTrunkDecorator.java",
+          "src/main/resources/data/fusion_table/worldgen/placed_feature/death_valley_tree.json",
           "src/main/java/net/mcreator/fusion_table/world/features/treedecorators/DeathValleyFruitDecorator.java",
           "src/main/java/net/mcreator/fusion_table/world/features/treedecorators/DeathValleyLeaveDecorator.java",
-          "src/main/resources/data/fusion_table/worldgen/placed_feature/death_valley_tree.json",
-          "src/main/java/net/mcreator/fusion_table/world/features/treedecorators/DeathValleyTrunkDecorator.java",
-          "src/main/resources/data/fusion_table/worldgen/biome/death_valley.json",
           "src/main/resources/data/fusion_table/worldgen/configured_feature/death_valley_tree.json"
         ]
       }
@@ -690,5 +690,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.fusion_table"
   },
-  "mcreatorVersion": 202400451119
+  "mcreatorVersion": 202400452410
 }

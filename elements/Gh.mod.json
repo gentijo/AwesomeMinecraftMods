@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "wow you like to die",
+    "achievementDescription": "You entered death vallley",
+    "achievementIcon": {
+      "value": "Blocks.DEADBUSH"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "goal",
+    "parent": {
+      "value": "story/shiny_gear"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:DeathValley</field></block></next></block></xml>"
+  }
+}

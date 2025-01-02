@@ -7,11 +7,11 @@
       "locked_code": false,
       "metadata": {
         "files": [
+          "src/main/resources/data/fusion_table/loot_table/blocks/red_iron.json",
           "src/main/java/net/mcreator/fusion_table/block/RedIronBlock.java",
-          "src/main/resources/assets/awesomeminecraftmods/models/block/red_iron.json",
-          "src/main/resources/assets/awesomeminecraftmods/models/item/red_iron.json",
-          "src/main/resources/assets/awesomeminecraftmods/blockstates/red_iron.json",
-          "src/main/resources/data/awesomeminecraftmods/loot_table/blocks/red_iron.json"
+          "src/main/resources/assets/fusion_table/blockstates/red_iron.json",
+          "src/main/resources/assets/fusion_table/models/item/red_iron.json",
+          "src/main/resources/assets/fusion_table/models/block/red_iron.json"
         ]
       }
     },
@@ -22,7 +22,7 @@
       "locked_code": false,
       "metadata": {
         "files": [
-          "src/main/resources/data/awesomeminecraftmods/recipe/red_iron_recipe.json"
+          "src/main/resources/data/fusion_table/recipe/red_iron_recipe.json"
         ]
       }
     },
@@ -33,12 +33,12 @@
       "locked_code": false,
       "metadata": {
         "files": [
-          "src/main/resources/assets/awesomeminecraftmods/models/item/fusion_table.json",
-          "src/main/java/net/mcreator/fusion_table/block/entity/FusionTableBlockEntity.java",
-          "src/main/resources/data/awesomeminecraftmods/loot_table/blocks/fusion_table.json",
+          "src/main/resources/data/fusion_table/loot_table/blocks/fusion_table.json",
           "src/main/java/net/mcreator/fusion_table/block/FusionTableBlock.java",
-          "src/main/resources/assets/awesomeminecraftmods/models/block/fusion_table.json",
-          "src/main/resources/assets/awesomeminecraftmods/blockstates/fusion_table.json"
+          "src/main/resources/assets/fusion_table/models/item/fusion_table.json",
+          "src/main/resources/assets/fusion_table/blockstates/fusion_table.json",
+          "src/main/resources/assets/fusion_table/models/block/fusion_table.json",
+          "src/main/java/net/mcreator/fusion_table/block/entity/FusionTableBlockEntity.java"
         ]
       }
     },
@@ -49,7 +49,7 @@
       "locked_code": false,
       "metadata": {
         "files": [
-          "src/main/resources/data/awesomeminecraftmods/recipe/fusion_table_recipe.json"
+          "src/main/resources/data/fusion_table/recipe/fusion_table_recipe.json"
         ]
       }
     },
@@ -89,9 +89,9 @@
       "locked_code": false,
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fusion_table/network/FusionInterfaceButtonMessage.java",
           "src/main/java/net/mcreator/fusion_table/world/inventory/FusionInterfaceMenu.java",
-          "src/main/java/net/mcreator/fusion_table/client/gui/FusionInterfaceScreen.java"
+          "src/main/java/net/mcreator/fusion_table/client/gui/FusionInterfaceScreen.java",
+          "src/main/java/net/mcreator/fusion_table/network/FusionInterfaceButtonMessage.java"
         ]
       }
     },
@@ -148,8 +148,8 @@
       "registry_name": "gunmaker",
       "metadata": {
         "files": [
-          "src/main/resources/assets/awesomeminecraftmods/models/item/gunmaker.json",
-          "src/main/java/net/mcreator/fusion_table/item/GunmakerItem.java"
+          "src/main/java/net/mcreator/fusion_table/item/GunmakerItem.java",
+          "src/main/resources/assets/fusion_table/models/item/gunmaker.json"
         ]
       }
     },
@@ -161,8 +161,8 @@
       "registry_name": "bottle_of_lightning",
       "metadata": {
         "files": [
-          "src/main/resources/assets/awesomeminecraftmods/models/item/bottle_of_lightning.json",
-          "src/main/java/net/mcreator/fusion_table/item/BottleOfLightningItem.java"
+          "src/main/java/net/mcreator/fusion_table/item/BottleOfLightningItem.java",
+          "src/main/resources/assets/fusion_table/models/item/bottle_of_lightning.json"
         ]
       }
     },
@@ -204,8 +204,8 @@
       "registry_name": "sword_of_lightning",
       "metadata": {
         "files": [
-          "src/main/resources/assets/awesomeminecraftmods/models/item/sword_of_lightning.json",
-          "src/main/java/net/mcreator/fusion_table/item/SwordOfLightningItem.java"
+          "src/main/java/net/mcreator/fusion_table/item/SwordOfLightningItem.java",
+          "src/main/resources/assets/fusion_table/models/item/sword_of_lightning.json"
         ]
       }
     },
@@ -259,8 +259,8 @@
       "registry_name": "hg",
       "metadata": {
         "files": [
-          "src/main/resources/assets/awesomeminecraftmods/models/item/hg.json",
-          "src/main/java/net/mcreator/fusion_table/item/HgItem.java"
+          "src/main/java/net/mcreator/fusion_table/item/HgItem.java",
+          "src/main/resources/assets/fusion_table/models/item/hg.json"
         ]
       }
     },
@@ -302,8 +302,8 @@
       "registry_name": "lol",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fusion_table/item/LolItem.java",
-          "src/main/resources/assets/awesomeminecraftmods/models/item/lol.json"
+          "src/main/resources/assets/fusion_table/models/item/lol.json",
+          "src/main/java/net/mcreator/fusion_table/item/LolItem.java"
         ]
       }
     },
@@ -343,8 +343,8 @@
       "registry_name": "lavasword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fusion_table/item/LavaswordItem.java",
-          "src/main/resources/assets/awesomeminecraftmods/models/item/lavasword.json"
+          "src/main/resources/assets/fusion_table/models/item/lavasword.json",
+          "src/main/java/net/mcreator/fusion_table/item/LavaswordItem.java"
         ]
       }
     },
@@ -416,8 +416,8 @@
       "registry_name": "infinite_water_bucket",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fusion_table/item/InfiniteWaterBucketItem.java",
-          "src/main/resources/assets/awesomeminecraftmods/models/item/infinite_water_bucket.json"
+          "src/main/resources/assets/fusion_table/models/item/infinite_water_bucket.json",
+          "src/main/java/net/mcreator/fusion_table/item/InfiniteWaterBucketItem.java"
         ]
       }
     },
@@ -459,11 +459,11 @@
       "registry_name": "lava_wall",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fusion_table/block/LavaWallBlock.java",
-          "src/main/resources/data/awesomeminecraftmods/loot_table/blocks/lava_wall.json",
-          "src/main/resources/assets/awesomeminecraftmods/models/block/lava_wall.json",
-          "src/main/resources/assets/awesomeminecraftmods/blockstates/lava_wall.json",
-          "src/main/resources/assets/awesomeminecraftmods/models/item/lava_wall.json"
+          "src/main/resources/assets/fusion_table/blockstates/lava_wall.json",
+          "src/main/resources/data/fusion_table/loot_table/blocks/lava_wall.json",
+          "src/main/resources/assets/fusion_table/models/item/lava_wall.json",
+          "src/main/resources/assets/fusion_table/models/block/lava_wall.json",
+          "src/main/java/net/mcreator/fusion_table/block/LavaWallBlock.java"
         ]
       }
     },
@@ -475,8 +475,8 @@
       "registry_name": "speed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/awesomeminecraftmods/models/item/speed.json",
-          "src/main/java/net/mcreator/fusion_table/item/SpeedItem.java"
+          "src/main/java/net/mcreator/fusion_table/item/SpeedItem.java",
+          "src/main/resources/assets/fusion_table/models/item/speed.json"
         ]
       }
     },
@@ -488,7 +488,7 @@
       "registry_name": "sdfs",
       "metadata": {
         "files": [
-          "src/main/resources/data/awesomeminecraftmods/recipe/sdfs.json"
+          "src/main/resources/data/fusion_table/recipe/sdfs.json"
         ]
       }
     },
@@ -500,7 +500,7 @@
       "registry_name": "dksrgiewnhsrughxyeudfigviuledfughidzhr",
       "metadata": {
         "files": [
-          "src/main/resources/data/awesomeminecraftmods/recipe/dksrgiewnhsrughxyeudfigviuledfughidzhr.json"
+          "src/main/resources/data/fusion_table/recipe/dksrgiewnhsrughxyeudfigviuledfughidzhr.json"
         ]
       }
     },
@@ -512,11 +512,11 @@
       "registry_name": "lava_wall_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fusion_table/blockstates/lava_wall_2.json",
+          "src/main/resources/assets/fusion_table/models/item/lava_wall_2.json",
           "src/main/java/net/mcreator/fusion_table/block/LavaWall2Block.java",
-          "src/main/resources/data/awesomeminecraftmods/loot_table/blocks/lava_wall_2.json",
-          "src/main/resources/assets/awesomeminecraftmods/models/item/lava_wall_2.json",
-          "src/main/resources/assets/awesomeminecraftmods/blockstates/lava_wall_2.json",
-          "src/main/resources/assets/awesomeminecraftmods/models/block/lava_wall_2.json"
+          "src/main/resources/data/fusion_table/loot_table/blocks/lava_wall_2.json",
+          "src/main/resources/assets/fusion_table/models/block/lava_wall_2.json"
         ]
       }
     },
@@ -528,8 +528,37 @@
       "registry_name": "lava_sword_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fusion_table/item/LavaSword2Item.java",
-          "src/main/resources/assets/awesomeminecraftmods/models/item/lava_sword_2.json"
+          "src/main/resources/assets/fusion_table/models/item/lava_sword_2.json",
+          "src/main/java/net/mcreator/fusion_table/item/LavaSword2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "DeathValley",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_valley",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fusion_table/world/features/treedecorators/DeathValleyFruitDecorator.java",
+          "src/main/java/net/mcreator/fusion_table/world/features/treedecorators/DeathValleyLeaveDecorator.java",
+          "src/main/resources/data/fusion_table/worldgen/placed_feature/death_valley_tree.json",
+          "src/main/java/net/mcreator/fusion_table/world/features/treedecorators/DeathValleyTrunkDecorator.java",
+          "src/main/resources/data/fusion_table/worldgen/biome/death_valley.json",
+          "src/main/resources/data/fusion_table/worldgen/configured_feature/death_valley_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Gh",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fusion_table/advancement/gh.json"
         ]
       }
     }
@@ -537,59 +566,106 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/village_snowy": [
+      "~CUSTOM:DeathValley"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:LavaSword2",
+      "~CUSTOM:Lavasword"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:DeathValley"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:FusionTable",
       "~CUSTOM:RedIron"
     ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:FusionTable",
-      "~CUSTOM:RedIron"
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:DeathValley"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:SwordOfLightning",
       "~CUSTOM:Gunmaker"
     ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:LavaSword2",
-      "~CUSTOM:Lavasword"
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:FusionTable",
+      "~CUSTOM:RedIron"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_cold": [
+      "~CUSTOM:DeathValley"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_swamp": [
+      "~CUSTOM:DeathValley"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.awesomeminecraftmods.edws": "Edws",
-      "item.awesomeminecraftmods.speed": "Speed",
-      "item.awesomeminecraftmods.lol": "Lol",
+      "block.fusion_table.fusion_table": "Fusion Table",
       "item.fusion_table.gunmaker": "Gunmaker",
+      "item.fusion_table.infinite_water_bucket": "Water Gem",
       "tile.rediron.name": "Red Iron",
+      "advancements.gh.descr": "You entered death vallley",
+      "gui.fusion_table.fusion_interface.button_fuse": "Fuse",
+      "item.fusion_table.sword_of_lightning": "Sword Of Lightning",
+      "item.fusion_table.bottle_of_lightning": "Bottle Of Lightning",
       "item.fusion_table.lol": "Lol",
+      "biome.fusion_table.death_valley": "Death Valley",
+      "advancements.gh.title": "wow you like to die",
+      "block.fusion_table.lava_wall_2": "Lava Wall",
+      "block.fusion_table.red_iron": "Red Iron",
+      "item.fusion_table.hg": "Hg",
+      "block.fusion_table.lava_wall": "Lava Wall",
       "gui.fusion_table.fusion_interface.label_fusion_table": "Fusion table",
       "item.fusion_table.lava_sword_2": "Lavasword",
       "item.fusion_table.speed": "Speed",
-      "item.awesomeminecraftmods.bottle_of_lightning": "Bottle Of Lightning",
-      "item.fusion_table.lavasword": "Lavasword",
-      "block.awesomeminecraftmods.fusion_table": "Fusion Table",
-      "item.awesomeminecraftmods.gunmaker": "Gunmaker",
-      "item.awesomeminecraftmods.lavasword": "Lavasword",
-      "block.fusion_table.fusion_table": "Fusion Table",
-      "block.awesomeminecraftmods.red_iron": "Red Iron",
-      "item.awesomeminecraftmods.lava_sword_2": "Lavasword",
-      "item.fusion_table.infinite_water_bucket": "Water Gem",
-      "gui.awesomeminecraftmods.fusion_interface.label_fusion_table": "Fusion table",
-      "gui.fusion_table.fusion_interface.button_fuse": "Fuse",
-      "item.awesomeminecraftmods.hg": "Hg",
-      "item.fusion_table.sword_of_lightning": "Sword Of Lightning",
-      "block.awesomeminecraftmods.lava_wall": "Lava Wall",
-      "item.fusion_table.bottle_of_lightning": "Bottle Of Lightning",
-      "block.fusion_table.lava_wall_2": "Lava Wall",
-      "block.fusion_table.red_iron": "Red Iron",
-      "item.awesomeminecraftmods.infinite_water_bucket": "Water Gem",
-      "item.fusion_table.hg": "Hg",
-      "gui.awesomeminecraftmods.fusion_interface.button_fuse": "Fuse",
-      "block.fusion_table.lava_wall": "Lava Wall",
-      "item.awesomeminecraftmods.sword_of_lightning": "Sword Of Lightning",
-      "block.awesomeminecraftmods.lava_wall_2": "Lava Wall",
       "tile.fusiontable.name": "Fusion Table",
+      "item.fusion_table.lavasword": "Lavasword",
       "item_group.fusion_table.edws": "Edws"
     }
   },
@@ -598,11 +674,11 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "awesomeminecraftmods",
-    "modName": "AwesomeMinecraftMods",
+    "modid": "fusion_table",
+    "modName": "Fusion Table",
     "version": "1.0.0",
     "description": "The mod introduces a new crafting-table-like block which can be used for fusing Redstone Dust, Diamonds and Gold with Iron Blocks. You put 1 iron block in the top left slot and one of the 3 materials to create Red Iron, Diamond Blocks or Gold Blocks.  ",
-    "author": "Giovanni Gentilin",
+    "author": "Klemen",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
